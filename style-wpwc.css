@@ -1,0 +1,37 @@
+.wpwc-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.wpwc-category {
+    text-align: center;
+    margin: 10px;
+    flex: 1 1 200px; /* Flex item to take up space, minimum width of 200px */
+}
+
+.wpwc-category img {
+    width: 100%; /* Make width responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100px; /* Maximum width */
+    max-height: 100px; /* Maximum height */
+    border-radius: 50%; /* Circular images */
+    object-fit: cover;
+}
+
+.wpwc-category span {
+    display: block;
+    margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+    .wpwc-category {
+        flex: 1 1 100px; /* Smaller flex-basis on smaller screens */
+    }
+
+    .wpwc-category img {
+        max-width: 80px; /* Smaller images on smaller screens */
+        max-height: 80px;
+    }
+}
