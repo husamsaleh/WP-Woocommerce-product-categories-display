@@ -41,7 +41,7 @@ Navigate to the 'WPWC Categories' settings page in the WordPress admin menu to c
 
 ## Screenshots
 
-![Categories Display](images/categories-display.PNG)
+![Categories Display](images/category-display.png)
 
 ## Contributing
 
