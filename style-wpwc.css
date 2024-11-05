@@ -18,6 +18,7 @@
     max-height: 100px; /* Maximum height */
     border-radius: 50%; /* Circular images */
     object-fit: cover;
+    margin: 0 auto;
 }
 
 .wpwc-category span {
